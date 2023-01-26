@@ -1,8 +1,5 @@
 import ImageText from "../components/ImageText";
-import ImageText1 from "../assets/foto.png";
 import "../output.css";
-import Project1 from "../assets/image-1.png";
-import Project2 from "../assets/1-Imagen-App.png";
 import Column from "../components/Column";
 
 export default function Home() {
@@ -11,20 +8,20 @@ export default function Home() {
       id: 1,
       title: "Profesional",
       text: `Currently working for MemodApp as a Backend Developer. I'm responsible for the development of the backend of the application, and the integration of the frontend with the backend.`,
-      image: Project1,
+      image: "https://frederickpeal.s3.amazonaws.com/web/image-1.png",
     },
     {
       id: 2,
       title: "Open Source",
       text: `I'm a big fan of open source, Since 2019 I've been contributing to the open source community, I've contributed to the following projects: Kanvas Ecosystem, Canvas-core, Workflows`,
-      image: Project2,
+      image: "https://frederickpeal.s3.amazonaws.com/web/1-Imagen-App.png",
     },
   ];
   return (
     <div className="">
       <div className="lg:py-20 md:py-20 bg-black divide-y-4">
         <ImageText
-          image={ImageText1}
+          image="https://frederickpeal.s3.amazonaws.com/web/foto.png"
           width={617}
           height={642}
           title="Frederick Peñaló"

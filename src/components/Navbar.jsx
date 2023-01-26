@@ -35,7 +35,7 @@ function navbar() {
         <div className="lg:ml-[90px] md:ml-[90px]">
           <a href="/" className="flex items-center">
             <Image
-              src={logo}
+              src={"https://frederickpeal.s3.amazonaws.com/web/logo.webp"}
               alt="Frederick Peñalo Logo"
               className="h-20 mr-3"
               width={256}
