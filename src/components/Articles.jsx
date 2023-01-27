@@ -11,6 +11,7 @@ function Articles(props) {
             url
         }
         contentHtml
+        publishedAt
       }
     }
   }
@@ -23,8 +24,11 @@ function Articles(props) {
   });
   return (
     <div>
-      {articles.nodes.map(article => (
-       // <div className="text-white" dangerouslySetInnerHTML={{__html:article['contentHtml']}}></div>
+      {articles.nodes.map((article) => (
+        // <div className="text-white" dangerouslySetInnerHTML={{__html:article['contentHtml']}}></div>
+        <div className="flex">
+          <div className="flex-1"></div>
+        </div>
       ))}
     </div>
   );
