@@ -9,7 +9,7 @@ function ImageText(props) {
           <h2 className="text-white text-[43.65px]">{props.subtitle}</h2>
           <p className="text-white">{props.text}</p>
         </div>
-        <div className="flex-1 md:ml-auto grow sm:mt-[30px] xs:mt-[30px]">
+        <div className="flex-1 lg:ml-[200px] grow sm:mt-[30px] xs:mt-[30px]">
           <Image
             src={props.image}
             className="rounded-lg"

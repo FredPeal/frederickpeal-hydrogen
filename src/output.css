@@ -598,6 +598,14 @@ html {
   margin-top: 158px;
 }
 
+.ml-auto{
+  margin-left: auto;
+}
+
+.ml-\[140px\]{
+  margin-left: 140px;
+}
+
 .block{
   display: block;
 }
@@ -930,6 +938,14 @@ body {
 
   .lg\:mr-\[125px\]{
     margin-right: 125px;
+  }
+
+  .lg\:ml-\[140px\]{
+    margin-left: 140px;
+  }
+
+  .lg\:ml-\[200px\]{
+    margin-left: 200px;
   }
 
   .lg\:w-\[435px\]{
