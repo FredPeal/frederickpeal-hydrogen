@@ -2,6 +2,7 @@ import ImageText from "../components/ImageText";
 import "../output.css";
 import Column from "../components/Column";
 import Articles from "../components/Articles";
+import Divider from "../components/Divider";
 export default function Home() {
   const projects = [
     {
@@ -30,6 +31,7 @@ export default function Home() {
             text="I'm a Backend Developer, Lover all things tech, and a huge fan of the UX and Science. I'm currently working on a few projects, and I'm always looking for new opportunities. Feel free to reach out to me on any of my socials, or send me an email."
           ></ImageText>
         </div>
+        <Divider/>
         <div className="mt-[51px] md:ml-[125px] lg:ml-[125px] lg:mr-[125px] md:mr-[125px]">
           <div className="flex flex-row justify-between flex-wrap">
             <div>
@@ -53,6 +55,7 @@ export default function Home() {
             ))}
           </div>
         </div>
+        <Divider/>
         <div className="mt-[158px] md:ml-[125px] lg:ml-[125px] lg:mr-[125px] md:mr-[125px]">
           <div className="flex flex-row justify-between flex-wrap">
             <div>
@@ -60,7 +63,7 @@ export default function Home() {
                 My latest blog posts
               </h1>
             </div>
-            <div>
+            <div className="mt-[33px]">
               <a href="#" className="text-[#FEED73] text-[33.89px]">
                 All Articles
               </a>
@@ -68,6 +71,7 @@ export default function Home() {
           </div>
           <Articles />
         </div>
+        <Divider/>
       </div>
     </div>
   );
